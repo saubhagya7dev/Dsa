@@ -13,7 +13,7 @@ int main() {
     //precompute:
     map<int, int> mp;
     for (int i = 0; i < n; i++) {
-        mp[arr[i]]++;
+        mp[arr[i]]++; // frequency map
     }
 
     // iterate over the map:
